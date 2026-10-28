@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f2f0e9">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="description" content="2026年10月、チョコをきっかけに突然マリーンズファンになった。勝っても負けても書く、非公式の個人観察日記。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="かもめの観察日記。｜理由は不純。応援は本気。">
+<meta property="og:description" content="チョコから、野球が始まった。2027年に向けてマリーンズを追いかける、非公式の個人観察日記。">
+<meta name="color-scheme" content="light">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>かもめの観察日記。｜非公式・個人ファンジャーナル</title>
+<style>
+:root{--paper:#f2f0e9;--ink:#171716;--muted:#6a6863;--line:#bcb9af;--shade:#dfddd6;--night:#171716;--white:#f6f4ed;--serif:"Hiragino Mincho ProN","Yu Mincho","Noto Serif CJK JP",serif;--sans:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;--mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace}
+*,*:before,*:after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:28px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.8;-webkit-text-size-adjust:100%;overflow-wrap:anywhere}
+::selection{background:var(--night);color:var(--white)}
+a{color:inherit}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #64645e;outline-offset:4px}
+.wrap{max-width:1120px;width:100%;margin:0 auto;padding-inline:clamp(20px,4vw,46px)}
+.mono{font:600 11px/1.6 var(--mono);letter-spacing:.11em}
+.micro{font:600 10px/1.5 var(--mono);letter-spacing:.12em}
+.serif{font-family:var(--serif);font-weight:900;letter-spacing:-.06em}
+.skip{position:absolute;top:-100px;left:12px;background:#fff;color:#000;padding:10px 13px;z-index:100}.skip:focus{top:10px}
+.top{background:var(--night);color:#ddd9d2;padding:9px 0}.top .wrap{display:flex;justify-content:space-between;gap:10px}.top .micro:last-child{color:#aaa7a1}
+.mast{border-bottom:1px solid var(--ink)}.mastrow{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:22px}.brandrow{display:flex;align-items:center;gap:12px;min-width:0;text-decoration:none}.mark{font:bold italic 43px/1 Georgia,serif;border-right:2px solid var(--ink);padding-right:14px;flex:none}.brand{display:block;font:900 clamp(16px,2.1vw,23px)/1.4 var(--serif);letter-spacing:-.06em}.sub{font:500 9px/1.4 var(--mono);letter-spacing:.09em;color:var(--muted);white-space:nowrap}.mininav{font-weight:800;text-decoration:none;font-size:13px;white-space:nowrap;border-bottom:1px solid transparent}.mininav:hover{border-color:currentColor}
+.hero{padding-top:28px;padding-bottom:27px}.fileno{border-bottom:1px solid var(--line);padding-bottom:10px;color:var(--muted)}.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,.82fr);gap:clamp(25px,5.5vw,85px);align-items:center;padding:36px 0 12px}.eyebrow{color:var(--muted);margin:0 0 12px}.hero h1{font:900 clamp(45px,4.55vw,68px)/1.55 var(--serif);letter-spacing:-.095em;margin:0 0 15px;word-break:keep-all}.lede{max-width:520px;font-size:16px;line-height:2.15;margin:0}.links{display:flex;gap:14px 26px;flex-wrap:wrap;margin-top:24px}.links a{text-decoration:none;border-bottom:1px solid var(--ink);padding:4px 0 8px;font-weight:800;font-size:13px}
+.cover{background:var(--night);color:var(--white);padding:25px;min-height:370px;position:relative;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;isolation:isolate}.cover:before{content:"";position:absolute;inset:12px;border:1px solid #51504a;pointer-events:none}.coverhead{display:flex;justify-content:space-between;color:#bbb9b1;position:relative;z-index:2}.bird{width:85%;max-width:370px;height:auto;max-height:205px;display:block;margin:auto}.coverbottom{font:900 clamp(27px,3vw,40px)/1.35 var(--serif);letter-spacing:-.08em;position:relative;z-index:2}.coverbottom span{display:block}
+.banner{background:var(--night);color:var(--white)}.banner .wrap{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:15px}.banner strong{font:900 clamp(18px,2.3vw,27px)/1.55 var(--serif);letter-spacing:-.065em}.banner .micro{color:#bbb9b0;white-space:nowrap}
+.archive{padding-top:60px;padding-bottom:78px}.archive>.rule{border-top:2px solid var(--ink)}.section-kicker{color:var(--muted);margin-top:18px}.archive h2,.about h2{font:900 clamp(42px,5.3vw,69px)/1.3 var(--serif);letter-spacing:-.085em;margin:8px 0 22px}.archive-desc{color:var(--muted);font-size:14px;margin:0 0 22px}
+.filters{display:flex;flex-wrap:wrap;gap:7px 24px;padding:11px 0 17px;border-bottom:1px solid var(--ink)}.filters button{border:0;border-bottom:2px solid transparent;padding:7px 2px;cursor:pointer;background:transparent;font:800 13px/1.6 var(--sans);color:var(--muted)}.filters button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}.filters button:hover{color:var(--ink)}.filter-status{font-size:12px;color:var(--muted);padding:11px 0 0}
+.entry{border-bottom:1px solid var(--line);scroll-margin-top:16px}.entry summary{display:grid;grid-template-columns:70px minmax(0,1fr) 26px;gap:19px;align-items:start;list-style:none;cursor:pointer;padding:26px 0 27px}.entry summary::-webkit-details-marker{display:none}.entry summary::marker{content:""}.entry-n{font:900 49px/1.1 var(--sans);letter-spacing:-.085em}.entry-heading{min-width:0}.entry-meta{display:block;font:600 11px/1.4 var(--mono);letter-spacing:.02em;color:var(--muted);margin:1px 0 9px}.entry-title{display:block;font:900 clamp(23px,2.8vw,35px)/1.5 var(--serif);letter-spacing:-.065em}.entry-sub{font-size:13px;color:var(--muted);line-height:1.6;display:block;margin-top:9px}.entry-arrow{font-size:24px;line-height:1.2;transition:transform .18s ease}.entry[open] .entry-arrow{transform:rotate(90deg)}.entry[hidden]{display:none}.entry-content{padding:0 20px 32px 89px}.prose{max-width:690px;font-size:16px;line-height:2.1}.prose p{margin:0 0 1.25em}.prose strong{font-weight:800}.prose blockquote{margin:27px 0;padding:15px 18px;background:#e2e0d9;border-left:3px solid var(--ink);font:900 18px/1.7 var(--serif);letter-spacing:-.04em}.small-note{font-size:13px;color:var(--muted)}.sources{border-top:1px solid var(--line);margin:30px 0 0;padding:14px 0 0;font-size:13px}.sources .mono{color:var(--muted);font-size:10px}.sources ul{margin:9px 0 0;padding-left:1.25em}.sources li{margin:6px 0}.sources a{text-decoration-color:#97958c;text-underline-offset:3px}.back{display:inline-block;font-size:12px;margin-top:20px;font-weight:800;text-decoration:none;border-bottom:1px solid}
+.count{background:var(--night);color:var(--white)}.countrow{display:flex;justify-content:space-between;align-items:end;gap:25px;padding-block:45px}.count-title{font:900 clamp(20px,3vw,34px)/1.6 var(--serif);letter-spacing:-.06em;margin:7px 0 0}.date{font:800 clamp(55px,8vw,94px)/1 var(--sans);letter-spacing:-.10em;white-space:nowrap}.date-sub{font:600 10px/1.4 var(--mono);letter-spacing:.13em;text-align:right;margin-top:13px;color:#bfbdb5}.days{font:600 12px/1.4 var(--mono);color:#bfbdb5;margin-top:12px;text-align:right}
+.about{padding-top:60px;padding-bottom:65px}.about p{max-width:750px;margin:0 0 18px}.about .muted{font-size:13px;color:var(--muted)}.official-links{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:25px}.official-links a{font-size:12px;font-weight:800;text-underline-offset:4px}.footer{border-top:1px solid var(--line);padding-block:22px;color:var(--muted);font:600 10px/1.8 var(--mono);letter-spacing:.07em}.footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+@media(max-width:650px){
+ .wrap{padding-inline:20px}.top .micro{font-size:8px}.top .micro:last-child{display:none}.mastrow{padding-block:17px}.mark{font-size:31px;padding-right:12px}.brandrow{gap:10px}.brand{font-size:16px}.sub{font-size:8px;letter-spacing:.04em}.mininav{font-size:12px}.hero{padding-top:22px;padding-bottom:23px}.hero-grid{grid-template-columns:1fr;gap:25px;padding:26px 0 0}.hero h1{font-size:clamp(35px,8.7vw,50px);line-height:1.52;letter-spacing:-.10em;margin-bottom:13px}.lede{font-size:14px;line-height:2.02}.links{margin-top:19px;gap:10px 20px}.links a{font-size:12px}.cover{min-height:158px;padding:16px 18px}.cover:before{inset:9px}.coverhead{font-size:8px}.coverhead span:last-child{display:none}.bird{position:absolute;width:55%;height:105px;right:4%;top:30px;margin:0}.coverbottom{font-size:19px;line-height:1.5;margin-top:45px}.banner .wrap{min-height:63px}.banner strong{font-size:18px}.banner .micro{font-size:8px}.archive{padding-top:30px;padding-bottom:52px}.archive h2{font-size:43px;margin-bottom:12px}.archive-desc{font-size:12px}.filters{gap:5px 18px}.filters button{font-size:12px}.entry summary{grid-template-columns:40px minmax(0,1fr) 18px;gap:11px;padding:21px 0 23px}.entry-n{font-size:31px}.entry-title{font-size:20px;line-height:1.6}.entry-meta{font-size:9px;margin-bottom:6px}.entry-sub{font-size:12px}.entry-arrow{font-size:18px}.entry-content{padding:0 0 24px 51px}.prose{font-size:16px;line-height:2}.prose blockquote{font-size:16px;margin:20px 0;padding:10px 12px}.countrow{padding-block:30px;gap:10px}.count-title{font-size:19px}.date{font-size:49px}.date-sub,.days{font-size:9px}.about{padding-block:39px}.about h2{font-size:36px}.footer{font-size:9px}
+}
+@media(max-width:350px){.brand{font-size:14px}.sub{font-size:7px}.mininav{font-size:10px}.hero h1{font-size:34px}.banner strong{font-size:16px}.date{font-size:43px}.count-title{font-size:17px}.bird{width:50%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.entry-arrow{transition:none}}
+</style>
+</head><body id="top">
+<a class="skip" href="#main">本文へ移動</a>
+<div class="top"><div class="wrap"><span class="micro">PERSONAL OBSERVATION / BASEBALL & SOMETIMES CHOCOLATE</span><span class="micro">EST. OCT 2026</span></div></div>
+<header class="mast"><div class="wrap mastrow"><a class="brandrow" href="#top" aria-label="かもめの観察日記。ページ先頭へ"><span class="mark" aria-hidden="true">k.</span><span><span class="brand serif">かもめの観察日記。</span><span class="sub">AN INDEPENDENT FAN JOURNAL</span></span></a><nav aria-label="ページ内ナビゲーション"><a class="mininav" href="#archive">記事一覧 ↘</a></nav></div></header>
+<main id="main">
+<section class="hero wrap" aria-labelledby="hero-title"><div class="fileno mono">FILE 000 — THE BEGINNING</div><div class="hero-grid"><div><p class="micro eyebrow">ROOKIE'S NOTE / OCTOBER 2026</p><h1 id="hero-title">チョコから、<br>野球が始まった。</h1><p class="lede">2026年10月、突然マリーンズファンになった。応援に惹かれ、決め手はチョコ。何も知らないところから始める観察日記。</p><div class="links"><a href="#note-01" id="first-note-link">はじめての日誌を読む ↗</a><a href="#about">このサイトについて ↘</a></div></div><div class="cover" aria-label="オリジナルのかもめ線画とスローガン"><div class="coverhead micro"><span>PRIVATE PRINT<br>NOT FOR SALE</span><span>VOL. 000<br>MAR — 2027</span></div><svg class="bird" viewBox="0 0 280 150" role="img" aria-label="かもめをイメージした抽象的な線画"><path d="M12 99 C66 50 101 55 137 109 C179 34 213 24 274 42" fill="none" stroke="#ebe8de" stroke-width="5" stroke-linecap="round"/><path d="M20 116 C71 76 105 80 138 124 C176 52 218 45 275 58" fill="none" stroke="#64645f" stroke-width="1.5"/><path d="M35 126 C78 89 103 94 135 137" fill="none" stroke="#43433f" stroke-width="1.5"/></svg><div class="coverbottom"><span>勝っても、</span><span>負けても、書く。</span></div></div></div></section>
+<div class="banner"><div class="wrap"><strong>理由は不純。応援は本気。</strong><span class="micro">EDITORIAL NOTE / 001</span></div></div>
+<section class="archive wrap" id="archive" aria-labelledby="archive-title"><div class="rule"></div><div class="micro section-kicker">THE ARCHIVE / NO. 001–004</div><h2 id="archive-title">観察目録。</h2><p class="archive-desc">気になる見出しを押すと記事が開きます。もう一度押すと閉じられます。</p><div class="filters" role="group" aria-label="記事カテゴリで絞り込む"><button type="button" data-filter="all" aria-pressed="true">全部 (04)</button><button type="button" data-filter="diary" aria-pressed="false">新米ファン日誌</button><button type="button" data-filter="study" aria-pressed="false">チームを知る</button><button type="button" data-filter="research" aria-pressed="false">調べもの</button></div><div class="filter-status" id="filter-status" aria-live="polite">4件の記事</div>
+<details class="entry" id="note-01" data-category="diary" open>
+<summary aria-label="突然、千葉ロッテマリーンズのファンになりました。を閉じる"><span class="entry-n">01</span><span class="entry-heading"><span class="entry-meta">2026.10.27 <span aria-hidden="true">—</span> 日誌</span><span class="entry-title">突然、千葉ロッテマリーンズのファンになりました。</span><span class="entry-sub">入口は、応援文化。そしてチョコ。</span></span><span class="entry-arrow" aria-hidden="true">↗</span></summary>
+<div class="entry-content"><div class="prose"><p>来年からプロ野球を楽しんでみたい。せっかくなら、強い弱いではなく、何か一つ尖った球団を応援したい。そんな話をしていたら、千葉ロッテマリーンズにたどり着いた。</p>
+<p>熱のこもった、独特の応援。風に左右されるという海沿いの球場。なんだか妙に気になる球団だった。</p>
+<p>でも、最後に背中を押したのは別の話だ。「ロッテが優勝したら、チョコが安くなるんじゃないか？」。</p>
+<blockquote>理由は不純。応援は本気。</blockquote>
+<p>我ながら、かなり変な入口だと思う。でも、野球を好きになるのに立派な理由が必要とも思わない。</p>
+<p>この場所は、玄人が戦術を断言するブログではない。知らない選手の名前を覚えたり、補強の意味を調べたり、試合に一喜一憂したり。その過程を残す、ひとりの新米ファンの観察日記だ。</p>
+<p>2027年3月26日。開幕を待つ時間から、もうファン活動は始まっている。</p></div><aside class="sources" aria-label="参照した一次資料"><div class="mono">SOURCES / 資料</div><ul><li><a href="https://npb.jp/event/2027/" target="_blank" rel="noopener noreferrer">NPB｜2027年プロ野球行事日程 <span aria-hidden="true">↗</span></a></li></ul></aside><a class="back" href="#archive">目録に戻る <span aria-hidden="true">↑</span></a></div>
+</details>
+<details class="entry" id="note-02" data-category="study" >
+<summary aria-label="2026年のマリーンズは、どんなチームだった？を開く"><span class="entry-n">02</span><span class="entry-heading"><span class="entry-meta">2026.10.27 <span aria-hidden="true">—</span> 観察</span><span class="entry-title">2026年のマリーンズは、どんなチームだった？</span><span class="entry-sub">勝ち負けの数字から、ひとまず始める。</span></span><span class="entry-arrow" aria-hidden="true">↗</span></summary>
+<div class="entry-content"><div class="prose"><p>新米ファンが最初に押さえた数字は、2026年の最終成績。<strong>143試合・63勝77敗3分、勝率.450。パ・リーグ5位。</strong></p>
+<p>はっきり言って、好成績とは呼べない。それでも、ここで「来年は優勝だ！」と唱えるだけでは、チームを知ったことにならない気がする。</p>
+<p>まずは、何が良くて、どこが苦しかったのか。投手陣、打線、守備、接戦。来季に向けて一つずつ見ていきたい。</p>
+<blockquote>結果だけでなく、変わっていく過程を見たい。</blockquote>
+<p>「去年はできなかったことが、今年はできるようになった」。そんな発見ができれば、勝敗のほかにも応援する楽しみが増えそうだ。</p>
+<p class="small-note">記録は2026年の公式戦最終成績。評価や今後の注目点は個人の感想です。</p></div><aside class="sources" aria-label="参照した一次資料"><div class="mono">SOURCES / 資料</div><ul><li><a href="https://npb.jp/bis/2026/stats/std_p.html" target="_blank" rel="noopener noreferrer">NPB｜2026年パ・リーグ最終順位 <span aria-hidden="true">↗</span></a></li></ul></aside><a class="back" href="#archive">目録に戻る <span aria-hidden="true">↑</span></a></div>
+</details>
+<details class="entry" id="note-03" data-category="study" >
+<summary aria-label="ドラフト1位は左腕・米沢友翔。まずは名前を覚えたい。を開く"><span class="entry-n">03</span><span class="entry-heading"><span class="entry-meta">2026.10.27 <span aria-hidden="true">—</span> 人物</span><span class="entry-title">ドラフト1位は左腕・米沢友翔。まずは名前を覚えたい。</span><span class="entry-sub">まだ見ぬ新人の、未来を追いかける。</span></span><span class="entry-arrow" aria-hidden="true">↗</span></summary>
+<div class="entry-content"><div class="prose"><p>2026年10月22日、マリーンズがドラフト1位で交渉権を獲得したのは、関西大学の<strong>米沢友翔（よねざわ・ゆうと）投手</strong>。</p>
+<p>左投左打、180cm・80kg。球団の紹介によれば、最速148km/hのストレートと奪三振能力が持ち味の左腕だ。大学選手権では関西大の優勝に貢献し、MVPを獲得している。</p>
+<p>数字を読んでも、まだ投球の姿を頭の中で再生できない。でも、それでいいと思う。</p>
+<blockquote>まずは名前を覚える。次に、投げる姿を知る。</blockquote>
+<p>指名と正式入団は別の話。契約に関する発表、キャンプの様子、どんな形でプロのシーズンを始めるのか。そこから見届けよう。</p>
+<p class="small-note">2026年10月27日時点のドラフト指名情報。入団・登録や来季の起用は未確定です。</p></div><aside class="sources" aria-label="参照した一次資料"><div class="mono">SOURCES / 資料</div><ul><li><a href="https://www.marines.co.jp/news/detail/202600945629.html" target="_blank" rel="noopener noreferrer">千葉ロッテ公式｜2026年ドラフト全指名選手 <span aria-hidden="true">↗</span></a></li><li><a href="https://www.kansai-u.ac.jp/ja/about/pr/topics/2026/10/post_94572.html?stt_lang=ja" target="_blank" rel="noopener noreferrer">関西大学｜ドラフト指名発表 <span aria-hidden="true">↗</span></a></li></ul></aside><a class="back" href="#archive">目録に戻る <span aria-hidden="true">↑</span></a></div>
+</details>
+<details class="entry" id="note-04" data-category="research" >
+<summary aria-label="マリーンズが優勝したら、チョコは安くなるのか？を開く"><span class="entry-n">04</span><span class="entry-heading"><span class="entry-meta">2026.10.27 <span aria-hidden="true">—</span> 調査</span><span class="entry-title">マリーンズが優勝したら、チョコは安くなるのか？</span><span class="entry-sub">ファンになった理由を、まじめに検証する。</span></span><span class="entry-arrow" aria-hidden="true">↗</span></summary>
+<div class="entry-content"><div class="prose"><p>マリーンズを応援することになった、ちょっと大事な疑問。優勝したら、ロッテのお菓子は安くなるのか。</p>
+<p>2005年10月14日付のセブン＆アイの発表を読むと、千葉県内のセブン-イレブンで、ガーナ、パイの実、コアラのマーチなど<strong>6品の菓子詰め合わせ（合計890円相当）を777円</strong>で販売する企画が告知されていた。</p>
+<p>ただし、ここは訂正しておきたい。その詰め合わせは、<strong>優勝の有無にかかわらず販売される応援企画</strong>だった。一方で、おでん70円均一は優勝決定を条件にしていた。</p>
+<blockquote>「優勝したら必ずチョコが安くなる」わけではない。</blockquote>
+<p>それでも2005年の日本一の後には、記念商品「マリーンズ コアラのマーチ」「マリーンズガム」が発売されている。勝利とお菓子の間には、ちょっと楽しい歴史がある。</p>
+<p>2027年に何かセールがあるかは、当然まだわからない。期待は期待として、発表を楽しみに待とう。</p>
+<p class="small-note">2005年の販売価格は当時の資料に基づくものです。現在の価格や将来のセール予定ではありません。</p></div><aside class="sources" aria-label="参照した一次資料"><div class="mono">SOURCES / 資料</div><ul><li><a href="https://www.7andi.com/library/dbps_data/_template_/_res/company/news/pdf/2005/1014_01.pdf" target="_blank" rel="noopener noreferrer">セブン＆アイ｜2005年10月14日発表（PDF） <span aria-hidden="true">↗</span></a></li><li><a href="https://www.lotte.co.jp/corporate/about/history/" target="_blank" rel="noopener noreferrer">株式会社ロッテ｜ロッテの歩み <span aria-hidden="true">↗</span></a></li></ul></aside><a class="back" href="#archive">目録に戻る <span aria-hidden="true">↑</span></a></div>
+</details></section>
+<section class="count" aria-labelledby="count-title"><div class="wrap countrow"><div><div class="mono" style="color:#aaa89e">MARK THE DATE</div><h2 id="count-title" class="count-title">まだ始まっていない<br>シーズンを、待つ。</h2></div><div style="text-align:right"><div class="date">03.26</div><div class="date-sub">FRIDAY / 2027</div><div class="days" id="countdown" aria-live="off">開幕までの日数を計算中</div></div></div></section>
+<section id="about" class="about wrap" aria-labelledby="about-title"><div class="micro" style="color:var(--muted)">COLOPHON / ABOUT THIS JOURNAL</div><h2 id="about-title">詳しくなくても、<br>ファンでいい。</h2><p>2026年10月に突然千葉ロッテマリーンズのファンになった人間の、非公式の個人観察日記です。勝ち負けも、選手の成長も、たまにお菓子の話も。自分たちの言葉で記録します。</p><p class="muted">球団・NPB・株式会社ロッテとは無関係で、公認や後援を受けたサイトではありません。公式ロゴ、選手画像、試合映像は使用していません。広告・アクセス解析・コメント機能は設けていません。記載の事実に誤りを見つけた場合は訂正します。</p><div class="official-links"><a href="https://www.marines.co.jp/" target="_blank" rel="noopener noreferrer">球団公式 ↗</a><a href="https://npb.jp/" target="_blank" rel="noopener noreferrer">NPB公式 ↗</a><a href="https://www.marines.co.jp/expansion/property.html" target="_blank" rel="noopener noreferrer">球団プロパティ規程 ↗</a></div></section>
+</main><footer class="footer"><div class="wrap"><span>© 2026 PERSONAL FAN JOURNAL — EST. OCT 2026</span><span>UNOFFICIAL / NOT ENDORSED BY THE TEAM</span></div></footer>
+<script>
+(()=>{
+ 'use strict';
+ const entries=[...document.querySelectorAll('.entry')];
+ const buttons=[...document.querySelectorAll('[data-filter]')];
+ const status=document.getElementById('filter-status');
+ const applyFilter=(category)=>{
+   let count=0;
+   entries.forEach(entry=>{
+     const show=category==='all'||entry.dataset.category===category;
+     entry.hidden=!show;
+     if(show)count++;
+   });
+   buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter===category)));
+   status.textContent=count+'件の記事';
+ };
+ buttons.forEach(button=>button.addEventListener('click',()=>applyFilter(button.dataset.filter)));
+ document.getElementById('first-note-link').addEventListener('click',()=>{applyFilter('all');document.getElementById('note-01').open=true;});
+ const count=document.getElementById('countdown');
+ if(count){
+   const target=Date.parse('2027-03-26T00:00:00+09:00');
+   const days=Math.ceil((target-Date.now())/86400000);
+   count.textContent=days>0?'開幕まであと '+days+' 日':days===0?'いよいよ開幕予定日':'2027年開幕予定日を経過';
+ }
+ for(const entry of entries){entry.addEventListener('toggle',()=>{const summary=entry.querySelector('summary');if(summary)summary.setAttribute('aria-label',entry.querySelector('.entry-title').textContent+'を'+(entry.open?'閉じる':'開く'));});}
+})();
+</script>
+</body></html>
